@@ -8,7 +8,7 @@
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/MoonStars.svg);
@@ -55,6 +55,7 @@ body * {
 #switch {
   position: relative;
   width: 64px;
+  margin: 4px auto;
 }
 
 #switch button {
@@ -116,7 +117,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background: var(--surface-color);
+  background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
 
@@ -138,7 +139,6 @@ ul li a:hover {
 }
 #socialLinks a:hover {
   background: var(--highlight-color);
-  padding: 16px;
 }
 
 footer {
