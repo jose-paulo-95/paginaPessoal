@@ -4,7 +4,7 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   const imgSrc = document.documentElement.classList.contains("light")
-    ? "./assets/Avatar-light.png"
+    ? "./assets/avatar-light.png"
     : "./assets/Avatar.png"
   img.setAttribute("src", imgSrc)
 
